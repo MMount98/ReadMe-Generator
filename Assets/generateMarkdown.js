@@ -3,16 +3,16 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case "Mit":
-      return `[![License: MIT]('https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT')`;
+      return `[![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT')`;
       break;
     case "Apache 2.0":
-      return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+      return `[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](https://opensource.org/licenses/Apache-2.0)`;
       break;
     case "GPL 3.0":
-      return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+      return `[![License: GPL 3.0](https://img.shields.io/badge/license-GPL%203.0-green)](https://www.gnu.org/licenses/gpl-3.0)`;
       break;
     case "BSD 3":
-      return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
+      return `[![License: BSD 3.0](https://img.shields.io/badge/license-BSD%203-green)](https://opensource.org/licenses/BSD-3-Clause)`;
       break;
     case "None":
       return "";
@@ -41,48 +41,48 @@ function generateMarkdown(data) {
 
 ## ${licenseBadge}
 
-##### Table of Contents
+# Table of Contents
 
-1. [Description](#description)
-2. [How to Install](#instal)
-3. [How to Use](#usage)
-4. [How to contribute](#contribute)
-5. [How to Test](#test)
-6. [Contact Me](#contact)
+[Description](#description)\n
+  [How to Install](#instal)\n
+  [How to Use](#usage)\n
+  [How to contribute](#contribute)\n
+  [How to Test](#test)\n
+[Contact Me](#contact)
 
 <a name="description"></a>
 
-## 1. Description
+## Description
 
     ${data.description}
 
 <a name="install"></a>
 
-## 2. How to Install
+## How to Install
 
     ${data.install}
 
 <a name="usage"></a>
 
-## 3. How to Use
+## How to Use this Application
 
     ${data.usage}
 
 <a name="contribute"></a>
 
-## 4. How to Contribute
+## How to Contribute
 
     ${data.contribution}
 
 <a name="How to Test"></a>
 
-## 5. Testing
+## Testing
 
     ${data.test}
 
 <a name="contact"></a>
 
-## 6. Contact Me!
+## Contact Me!
 
 My gitHub account is: ${data.userName}
   

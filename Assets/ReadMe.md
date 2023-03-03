@@ -1,5 +1,5 @@
 
-# dd
+# mm
 
 ## [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT')
 
@@ -21,39 +21,39 @@
 
 ## Description
 
-    dd
+    mm
 
 <a name="install"></a>
 
 ## How to Install
 
-    dd
+    mm
 
 <a name="usage"></a>
 
 ## How to Use this Application
 
-    dd
+    mm
 
 <a name="contribute"></a>
 
 ## How to Contribute
 
-    dd
+    mm
 
 <a name="How to Test"></a>
 
 ## Testing
 
-    dd
+    mm
 
 <a name="contact"></a>
 
 ## Contact Me!
 
-My gitHub account is: mmount98
+My gitHub account is: mm
   
-Link to my [gitHub]('https://github.com/mmount98') Account
+Link to my [gitHub](https://github.com/mm) Account
  
-You can always reach out via my email: dd
+You can always reach out via my email: mm
   

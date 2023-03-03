@@ -37,7 +37,7 @@ function generateMarkdown(data) {
   } = data;
   const licenseBadge = renderLicenseBadge(data.license);
   return `
-# ${data.title}
+# ${title}
 
 ## ${licenseBadge}
 
@@ -54,41 +54,41 @@ function generateMarkdown(data) {
 
 ## Description
 
-    ${data.description}
+    ${description}
 
 <a name="install"></a>
 
 ## How to Install
 
-    ${data.install}
+    ${install}
 
 <a name="usage"></a>
 
 ## How to Use this Application
 
-    ${data.usage}
+    ${usage}
 
 <a name="contribute"></a>
 
 ## How to Contribute
 
-    ${data.contribution}
+    ${contribution}
 
 <a name="How to Test"></a>
 
 ## Testing
 
-    ${data.test}
+    ${test}
 
 <a name="contact"></a>
 
 ## Contact Me!
 
-My gitHub account is: ${data.userName}
+My gitHub account is: ${userName}
   
-Link to my [gitHub]('https://github.com/${data.userName}') Account
+Link to my [gitHub](https://github.com/${userName}) Account
  
-You can always reach out via my email: ${data.email}
+You can always reach out via my email: ${email}
   `;
 }
 

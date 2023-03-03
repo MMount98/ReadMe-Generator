@@ -42,7 +42,60 @@ function generateMarkdown(data) {
     contribution,
     test,
   } = data;
-  console.log("hello");
+  return `
+  #${data.title}
+
+## Badge License
+
+##### Table of Contents
+
+1. [Description](#description)
+2. [How to Install](#instal)
+3. [How to Use](#usage)
+4. [How to contribute](#contribute)
+5. [How to Test](#test)
+6. [Contact Me](#contact)
+
+<a name="description"></a>
+
+## 1. Description
+
+    ${data.description}
+
+<a name="install"></a>
+
+## 2. How to Install
+
+    ${data.install}
+
+<a name="usage"></a>
+
+## 3. How to Use
+
+    ${data.usage}
+
+<a name="contribute"></a>
+
+## 4. How to Contribute
+
+    ${data.contribution}
+
+<a name="How to Test"></a>
+
+## 5. Testing
+
+    ${data.test}
+
+<a name="contact"></a>
+
+## 6. Contact Me!
+
+My gitHub account is: ${data.userName}
+  
+[Link to my gitHub Account]('https://github.com/${data.userName}')  
+ 
+You can always reach out via my email: ${data.email}
+  `;
 }
 
 module.exports = {

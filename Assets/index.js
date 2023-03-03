@@ -55,7 +55,7 @@ inquirer
   ])
   .then((data) => {
     console.log(data);
-    generateMarkdown.generateMarkdown(data);
+    console.log(generateMarkdown.generateMarkdown(data));
   })
   .catch((error) => {
     if (error.isTtyError) {
@@ -65,9 +65,3 @@ inquirer
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();

@@ -1,6 +1,6 @@
-# Gen
+# ReadMe Generator
 
-## Badge License
+## [![License: MIT]('https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT')
 
 ##### Table of Contents
 
@@ -11,42 +11,42 @@
 5. [How to Test](#test)
 6. [Contact Me](#contact)
 
-<a name="description"></a>
+<a name="#description"></a>
 
 ## 1. Description
 
-    Skhjd
+    Its generotes thinggs
 
-<a name="install"></a>
+<a name="#install"></a>
 
 ## 2. How to Install
 
-    askdfjas
+    Node use that node
 
-<a name="usage"></a>
+<a name="#usage"></a>
 
 ## 3. How to Use
 
-    asdkfjsad
+    Type in terminal
 
-<a name="contribute"></a>
+<a name="#contribute"></a>
 
 ## 4. How to Contribute
 
-    asdfasd
+    give me money
 
-<a name="How to Test"></a>
+<a name="#Test"></a>
 
 ## 5. Testing
 
-    sadfsadf
+    down
 
-<a name="contact"></a>
+<a name="#contact"></a>
 
 ## 6. Contact Me!
 
-My gitHub account is: MM
+My gitHub account is: MMount98
 
-[Link to my gitHub Account]('https://github.com/MM')
+[Link to my gitHub Account]('https://github.com/MMount98')
 
-You can always reach out via my email: Mm@MM.com
+You can always reach out via my email: Mount.photos@gmail.com

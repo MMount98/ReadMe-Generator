@@ -1,11 +1,11 @@
 
-# ReadMe-Generator   [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT')
+# Demo ReadMe-Gen   [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT')
 
 <a name="description"></a>
 
 ## Description
 
-This is a node.js app that is intneded to be used to gererate a ReadMe file faster so that a developer can get back to coding their projects faster!
+This is the demo video to show the steps in-order to run this node line application
 
 
     # Table of Contents
@@ -27,29 +27,29 @@ This is a node.js app that is intneded to be used to gererate a ReadMe file fast
 
 ## How to Install
 
-To install this application, first make sure you have downloaded and installed [node.js](https://nodejs.org/en/) on you work terminal as it is required to run the program in command line.
+To install, watch how I did it in this video!
 
 <a name="usage"></a>
 
 ## How to Use this Application
 
-To use this application, after cloning down the repo, open the root file in your prefered code editor. Open a terminal(macOS) or bash command(windows) and locate into the assests folder. To make sure you are inthe correct folder, run the command, "ls" and you should see a list of items that is containg the, 'index.js' file. Run the command, "npm i" to download the proper required remote modules to run the program. Lastly, run the command, 'node index.js' and fill out the prompted question. 
+To use this node line applicaton, simple run the command, "node index.js" in the terminal that is set to the location of the file containing the index.js file
 
 <a name="contribute"></a>
 
 ## How to Contribute
 
-If you would like to contribute to this project, please feel free to email me and I would love to add you on or if you have suggestions to make this application run its best please reach out!
+Please feel free to reach out with comments or suggestions! Or if you would like to write some code too!
 
 <a name="test"></a>
 
 ## Testing
 
-To test to see if you are running the program, run the command line, 'node index.js'. If you aren't prompted with questions to fill out, It may be a few things.\n One possible issue is you are not directed in the proper location for the terminal. Run the command, 'pwd', in the terminal to see where you currently are accessing on your computer. If you are not in the assets folder of this repo, direct your terminal there and  run the program again. It is possible that you may not have node downloaded. Please Check to see if you have it download by running the command line, "node -v" and see if you are given a response detailing the current version of node you are running if at all. 
+To test if this application will function, please try running the first step, "node index.js" and see if an error is returned
 
 <a name="contact"></a>
 
-## Contact Me!
+## Q
 
 My gitHub account is: mmount98
   

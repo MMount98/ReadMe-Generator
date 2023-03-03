@@ -24,7 +24,7 @@ inquirer
     {
       type: "list",
       message: "Provide Licensing:",
-      choices: ["Mit", "Apache 2.0", "GPL 3.0", "BSP 3", "None"],
+      choices: ["Mit", "Apache 2.0", "GPL 3.0", "BSD 3", "None"],
       name: "license",
     },
     {
@@ -35,7 +35,7 @@ inquirer
     {
       type: "input",
       message: "Provide Installation Instructions:",
-      name: "description",
+      name: "install",
     },
     {
       type: "input",
@@ -53,8 +53,9 @@ inquirer
       name: "test",
     },
   ])
-  .then((userInput) => {
-    console.log(userInput);
+  .then((data) => {
+    console.log(data);
+    generateMarkdown.generateMarkdown(data);
   })
   .catch((error) => {
     if (error.isTtyError) {
@@ -62,4 +63,11 @@ inquirer
     }
   });
 
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
 
+// TODO: Create a function to initialize app
+function init() {}
+
+// Function call to initialize app
+init();

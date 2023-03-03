@@ -43,7 +43,7 @@ function generateMarkdown(data) {
     test,
   } = data;
   return `
-  #${data.title}
+# ${data.title}
 
 ## Badge License
 

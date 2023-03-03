@@ -55,7 +55,13 @@ inquirer
   ])
   .then((data) => {
     console.log(data);
-    console.log(generateMarkdown.generateMarkdown(data));
+    fs.writeFile(
+      "ReadMe.md",
+      generateMarkdown.generateMarkdown(data),
+      (error) => {
+        error ? console.log("error") : console.log("Writing File...");
+      }
+    );
   })
   .catch((error) => {
     if (error.isTtyError) {

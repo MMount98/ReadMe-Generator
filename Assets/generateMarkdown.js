@@ -94,5 +94,4 @@ You can always reach out via my email: ${data.email}
 
 module.exports = {
   generateMarkdown,
-  renderLicenseBadge,
 };

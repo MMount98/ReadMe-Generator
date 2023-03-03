@@ -54,19 +54,16 @@ inquirer
     },
   ])
   .then((data) => {
-    
     fs.writeFile(
-      "ReadMe.md",
+      "../ReadMe.md",
       generateMarkdown.generateMarkdown(data),
       (error) => {
         error ? console.log("error") : console.log("Writing File...");
       }
     );
-    
   })
   .catch((error) => {
     if (error.isTtyError) {
       console.log(error);
     }
   });
-

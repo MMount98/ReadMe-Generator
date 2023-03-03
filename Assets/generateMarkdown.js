@@ -37,48 +37,48 @@ function generateMarkdown(data) {
   } = data;
   const licenseBadge = renderLicenseBadge(data.license);
   return `
-# ${title}
-
-## ${licenseBadge}
-
-# Table of Contents
-
-[Description](#description)\n
-  [How to Install](#instal)\n
-  [How to Use](#usage)\n
-  [How to contribute](#contribute)\n
-  [How to Test](#test)\n
-[Contact Me](#contact)
+# ${title}   ${licenseBadge}
 
 <a name="description"></a>
 
 ## Description
 
-    ${description}
+${description}
+
+
+    # Table of Contents
+
+[Description](#description)\n
+  [How to Install](#install)\n
+  [How to Use](#usage)\n
+  [How to contribute](#contribute)\n
+  [How to Test](#test)\n
+[Contact Me](#contact)
+
 
 <a name="install"></a>
 
 ## How to Install
 
-    ${install}
+${install}
 
 <a name="usage"></a>
 
 ## How to Use this Application
 
-    ${usage}
+${usage}
 
 <a name="contribute"></a>
 
 ## How to Contribute
 
-    ${contribution}
+${contribution}
 
-<a name="How to Test"></a>
+<a name="test"></a>
 
 ## Testing
 
-    ${test}
+${test}
 
 <a name="contact"></a>
 

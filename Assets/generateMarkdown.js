@@ -86,7 +86,7 @@ function generateMarkdown(data) {
 
 My gitHub account is: ${data.userName}
   
-[Link to my gitHub Account]('https://github.com/${data.userName}')  
+Link to my [gitHub]('https://github.com/${data.userName}') Account
  
 You can always reach out via my email: ${data.email}
   `;

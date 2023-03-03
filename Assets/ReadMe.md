@@ -1,5 +1,5 @@
 
-# ReadMe Generator
+# dd
 
 ## [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT')
 
@@ -21,39 +21,39 @@
 
 ## Description
 
-    Generters thing
+    dd
 
 <a name="install"></a>
 
 ## How to Install
 
-    install da thing
+    dd
 
 <a name="usage"></a>
 
 ## How to Use this Application
 
-    use the thing
+    dd
 
 <a name="contribute"></a>
 
 ## How to Contribute
 
-    Give me money
+    dd
 
 <a name="How to Test"></a>
 
 ## Testing
 
-    If it don't work fix it
+    dd
 
 <a name="contact"></a>
 
 ## Contact Me!
 
-My gitHub account is: MMount98
+My gitHub account is: mmount98
   
-[Link to my gitHub Account]('https://github.com/MMount98')  
+Link to my [gitHub]('https://github.com/mmount98') Account
  
-You can always reach out via my email: mount.photos@gmail.com
+You can always reach out via my email: dd
   

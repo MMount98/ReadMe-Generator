@@ -59,9 +59,9 @@ The purpose of this project is to spend less time writing and desiging the ReadM
 
 ## User Story
 
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+    AS A developer
+    I WANT a README generator
+    SO THAT I can quickly create a professional README for a new project
 
 <a name="contribute"></a>
 

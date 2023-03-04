@@ -106,7 +106,7 @@ ${test}
 
 <a name="license"></a>
 
-##License
+## License
 
 ${licenseDesciption}
 

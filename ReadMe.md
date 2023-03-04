@@ -12,11 +12,15 @@ A command line run application to auto-generate a boilerplate ReadME.md file for
 
 [How to Install](#install)
 
-[How to Use](#usage)
+  - [How to Use](#usage)
+ 
+  - [How to Test](#test)
+
+[Purpose Behind the Application](#purpose)
+
+  - [User Story](#story)
 
 [How to contribute](#contribute)
-
-[How to Test](#test)
 
 [License](#license)
 
@@ -40,6 +44,24 @@ In order to install, please first make sure you have [node.js](https://nodejs.or
 ## Usage
 
 To use this application, after cloning down the repo, open the root file in your prefered code editor. Open a terminal(macOS) or bash command(windows) and locate into the assests folder. To make sure you are inthe correct folder, run the command, "ls" and you should see a list of items that is containg the, 'index.js' file. Run the command, "npm i" to download the proper required remote modules to run the program. Lastly, run the command, 'node index.js' and fill out the prompted question.
+
+### Here is Video on how to use this Application
+
+[Video Walkthrough](https://drive.google.com/file/d/16iSmFfiyiiVKxPOailWY6QnCdBdvqaAa/view)
+
+<a name="purpose"></a>
+
+## Purpose
+
+The purpose of this project is to spend less time writing and desiging the ReadMe File and more time spent on coding in a project. We all know what a ReadMe files needs to look like and have for a professinal aspect but having to wirte one out for every project can become repeditive. This command line application speeds up that whole process so that it won't feel as time consuming of a task as it use to be!
+
+<a name="story"></a>
+
+## User Story
+
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
 
 <a name="contribute"></a>
 

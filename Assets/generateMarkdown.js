@@ -69,7 +69,7 @@ function generateMarkdown(data) {
 ${description}
 
 
-    # Table of Contents
+# Table of Contents
 
 [Description](#description)\n
   [How to Install](#install)\n
@@ -82,25 +82,25 @@ ${description}
 
 <a name="install"></a>
 
-## How to Install
+## Installation
 
 ${install}
 
 <a name="usage"></a>
 
-## How to Use this Application
+## Usage
 
 ${usage}
 
 <a name="contribute"></a>
 
-## How to Contribute
+## Contributing
 
 ${contribution}
 
 <a name="test"></a>
 
-## Testing
+## Tests
 
 ${test}
 
@@ -112,7 +112,9 @@ ${licenseDesciption}
 
 <a name="contact"></a>
 
-## Contact Me!
+## Question
+
+If you have any questions or concerns about this project please contact me!
 
 My gitHub account is: ${userName}
   

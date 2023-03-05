@@ -12,13 +12,13 @@ A command line run application to auto-generate a boilerplate ReadME.md file for
 
 [How to Install](#install)
 
-  - [How to Use](#usage)
- 
-  - [How to Test](#test)
+- [How to Use](#usage)
+
+- [How to Test](#test)
 
 [Purpose Behind the Application](#purpose)
 
-  - [User Story](#story)
+- [User Story](#story)
 
 [How to contribute](#contribute)
 
@@ -49,6 +49,10 @@ To use this application, after cloning down the repo, open the root file in your
 
 [Video Walkthrough](https://drive.google.com/file/d/16iSmFfiyiiVKxPOailWY6QnCdBdvqaAa/view)
 
+### Incase the video doesn't load, here is a gif 
+
+![Gif Walkthrough](./Assets/Images/walkthrough.gif)
+
 <a name="purpose"></a>
 
 ## Purpose
@@ -73,7 +77,25 @@ If you want to contribute to this project, please feel free to reach out me via 
 
 ## Tests
 
-To test to see if you are running the program, run the command line, 'node index.js'. If you aren't prompted with questions to fill out, It may be a few things.\n One possible issue is you are not directed in the proper location for the terminal. Run the command, 'pwd', in the terminal to see where you currently are accessing on your computer. If you are not in the assets folder of this repo, direct your terminal there and run the program again. It is possible that you may not have node downloaded. Please Check to see if you have it download by running the command line, "node -v" and see if you are given a response detailing the current version of node you are running if at all.
+To test to see if you are running the program, run the command line, 'node index.js'. If you aren't prompted with questions to fill out, It may be a few things.
+
+One possible issue is you are not directed in the proper location for the terminal. Run the command, 'pwd', in the terminal to see where you currently are accessing on your computer. If you are not in the assets folder of this repo, direct your terminal to the assests folder un the program again.
+
+### PWD Error:
+![cd-error](./Assets/Images/cd-error.png)
+### Fix:
+
+![cd-fix](./Assets/Images/cd-assests.png)
+
+Another possible common error is not downloading the inquirere module:
+
+### Remote Module Error:
+
+![npm-error](./Assets/Images/Inquirer-error.png)
+
+### Npm I fix:
+
+![npm-i fixe](./Assets/Images/NPM-i.png)
 
 <a name="license"></a>
 
